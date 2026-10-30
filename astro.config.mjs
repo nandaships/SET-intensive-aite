@@ -6,7 +6,8 @@ import { defineConfig, fontProviders } from 'astro/config';
 
 // https://astro.build/config
 export default defineConfig({
-	site: 'https://example.com',
+	site: 'https://nandaships.github.io/SET-intensive-aite/',
+	base: '/SET-intensive-aite/',
 	integrations: [mdx(), sitemap()],
 	fonts: [
 		{
